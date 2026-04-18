@@ -1,96 +1,67 @@
-# 🚚 SmartRoute – Optimized Delivery Routing & Time Prediction System
 
-<p align="center">
-  <img src="https://github.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/blob/main/images/Screenshot%20from%202025-01-28%2011-25-18.png?raw=true" width="750"/>
-</p>
+# SmartRoute-Optimized Delivery Routing & Time Prediction
 
----
 
-## 🌍 Overview
 
-SmartRoute is an AI-powered logistics system designed to optimize delivery operations using graph algorithms and machine learning.
+SmartRoute is a logistics optimization system designed to streamline delivery operations by optimizing vehicle routes, predicting delivery times, and providing real-time operational insights. The system leverages OpenStreetMap data, machine learning models, and a dynamic dashboard for efficient fleet management.
 
-It improves:
-- Delivery route efficiency
-- ETA prediction accuracy
-- Fleet utilization
-- Real-time logistics monitoring
 
----
+## Features
 
-## ⚡ Key Features
+- **Optimized Route Planning**: Uses shortest path and Traveling Salesman Problem (TSP) algorithms to determine the best delivery routes.
 
-- 🚀 Route Optimization using Graph + TSP  
-- ⏱️ Machine Learning based Delivery Time Prediction  
-- 🚛 Smart Vehicle Allocation System  
-- 📊 Real-time Analytics Dashboard  
-- 🗺️ OpenStreetMap Integration  
+- **Predictive Delivery Time Estimation**: Trained machine learning model predicts delivery times based on distance, traffic, and weather conditions.
 
----
+- **Dynamic Vehicle Assignment**: Orders are grouped with vehicles based on capacity, priority, and weight.
 
-## 🧠 Tech Stack
+- **Interactive Dashboard**: Displays real-time route visualization, delivery metrics, and operational insights.
 
-- FastAPI, Python  
-- React.js  
-- OSMnx, NetworkX  
-- Scikit-learn, Pandas, NumPy  
-- Docker, PostgreSQL  
+- **Scalable and Containerized**: Dockerized deployment with FastAPI backend and React frontend.
 
----
 
-## ⚙️ Setup Instructions
+## Installation & Setup
 
+Steps to Run
+
+- Clone the repository
 ```bash
-git clone https://github.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction.git
-cd SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction
-docker-compose up --build
+  git clone https://github.com/Vijay2101/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction.git
+  cd SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction
+```
 
-Frontend: http://localhost:3000
+- Start the services using Docker Compose
+```bash
+  docker-compose up --build
+```
+- Access the application
+  
+Backend API: ``` http://localhost:8000 ```
 
-Backend: http://localhost:8000
+Frontend Dashboard: ``` http://localhost:3000 ```
+    
+## Tech Stack
 
-## 📸 Screenshots
+- **Backend**: FastAPI, Python, OpenStreetMap (OSMnx), NetworkX
+- **Frontend**: React, JavaScript, Google Maps API
+- **Database**: PostgreSQL
+- **Machine Learning**: Scikit-learn, RandomForest, Pandas, NumPy
+- **Deployment**: Docker, Docker Compose
 
-### 🧭 Route Optimization View
+
+## Screenshots
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/main/images/Screenshot%20from%202025-01-28%2011-25-18.png" width="650"/>
+  <img src="./images/img1.png" width="400"/>
+  <img src="./images/img2.png" width="400"/>
 </p>
 
----
-
-### 📍 Delivery Node Mapping
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/main/images/Screenshot%20from%202025-01-28%2011-25-44.png" width="650"/>
+  <img src="./images/img3.png" width="400"/>
+  <img src="./images/img4.png" width="400"/>
 </p>
 
----
-
-### 🚛 Vehicle Assignment System
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/main/images/Screenshot%20from%202025-01-28%2011-26-06.png" width="650"/>
+  <img src="./images/img5.png" width="400"/>
+  <img src="./images/img6.png" width="400"/>
 </p>
 
----
-
-### 📊 Analytics Dashboard
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/main/images/Screenshot%20from%202025-01-28%2011-26-35.png" width="650"/>
-</p>
-
----
-
-### ⏱️ Delivery Time Prediction
-<p align="center">
-  <img src="https://raw.githubusercontent.com/SurajRawat/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/main/images/Screenshot%20from%202025-01-28%2011-26-43.png" width="650"/>
-</p>
-
-
-📈 Impact
-Faster delivery operations
-Reduced fuel consumption
-Improved route efficiency
-Better fleet management
-👨‍💻 Developer
-
-Suraj Rawat
-Full Stack Developer | AI & ML Enthusiast
