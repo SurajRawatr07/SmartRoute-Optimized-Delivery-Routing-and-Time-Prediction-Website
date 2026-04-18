@@ -101,20 +101,20 @@ Backend API	http://localhost:8000
 Frontend Dashboard	http://localhost:3000
 
 
-## Screenshots
+### 📸 Screenshots
 
 <p align="center">
-  <img src="./images/img1.png" width="400"/>
-  <img src="./images/img2.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img1.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img2.png" width="400"/>
 </p>
 
 <p align="center">
-  <img src="./images/img3.png" width="400"/>
-  <img src="./images/img4.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img3.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img4.png" width="400"/>
 </p>
 
 <p align="center">
-  <img src="./images/img5.png" width="400"/>
-  <img src="./images/img6.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img5.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img6.png" width="400"/>
 </p>
 
