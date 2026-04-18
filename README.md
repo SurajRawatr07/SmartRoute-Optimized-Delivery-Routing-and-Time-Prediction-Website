@@ -1,7 +1,7 @@
 # 🚚 SmartRoute – Optimized Delivery Routing & Time Prediction System
 
 <p align="center">
-  <img src="./images/img1.png" width="750"/>
+  <img src="https://github.com/Vijay2101/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction/blob/main/images/Screenshot%20from%202025-01-28%2011-25-18.png?raw=true" width="750"/>
 </p>
 
 ---
@@ -14,9 +14,9 @@
 - 🤖 Machine Learning-based delivery time prediction
 - 🚛 Intelligent vehicle assignment system
 - 📊 Real-time analytics dashboard
-- 🗺️ OpenStreetMap-based spatial data processing
+- 🗺️ OpenStreetMap-based geospatial processing
 
-It helps logistics companies reduce delivery time, minimize fuel cost, and improve fleet efficiency using data-driven intelligence.
+It helps logistics companies reduce delivery cost, improve efficiency, and optimize fleet utilization using data-driven intelligence.
 
 ---
 
@@ -25,19 +25,19 @@ It helps logistics companies reduce delivery time, minimize fuel cost, and impro
 ### 🚀 Route Optimization
 - Uses **NetworkX + OSMnx graph algorithms**
 - Solves **Traveling Salesman Problem (TSP)**
-- Generates shortest and most efficient delivery paths
+- Finds shortest and most efficient delivery paths
 
 ### ⏱️ Delivery Time Prediction
-- ML model predicts ETA based on:
+- ML model predicts ETA using:
   - Distance
-  - Traffic conditions
-  - Weather factors
+  - Traffic
+  - Weather conditions
   - Load weight
 
 ### 🚛 Smart Vehicle Assignment
-- Orders grouped dynamically
-- Capacity-aware allocation
-- Priority-based scheduling
+- Dynamic order-to-vehicle allocation
+- Capacity-based grouping
+- Priority-aware scheduling
 
 ### 📊 Real-time Dashboard
 - Live route visualization
@@ -67,13 +67,12 @@ It helps logistics companies reduce delivery time, minimize fuel cost, and impro
 ### Machine Learning
 - Scikit-learn
 - Random Forest
-- Pandas
-- NumPy
+- Pandas, NumPy
 
-### Database & Deployment
-- PostgreSQL
+### Deployment
 - Docker
 - Docker Compose
+- PostgreSQL
 
 ---
 
@@ -84,63 +83,44 @@ It helps logistics companies reduce delivery time, minimize fuel cost, and impro
 ```bash
 git clone https://github.com/Vijay2101/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction.git
 cd SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction
-2️⃣ Run Project using Docker
+2️⃣ Run with Docker
 docker-compose up --build
 3️⃣ Access Application
-🌐 Frontend Dashboard: http://localhost:3000
+🌐 Frontend: http://localhost:3000
 🔌 Backend API: http://localhost:8000
-📸 Screenshots & System Explanation
-🧭 1. Route Optimization View
 
-👉 Shows optimized delivery route generated using graph algorithms (Shortest Path + TSP).
-This ensures minimum distance travel and efficient delivery planning.
+## 📸 Screenshots
 
-📍 2. Delivery Node Mapping
+### 🧭 Route Optimization View
+![Route Optimization](./images/Screenshot%20from%202025-01-28%2011-25-18.png).
+👉 Displays optimized delivery route using Graph Algorithms (Shortest Path + TSP)
+✔ Minimizes distance
+✔ Reduces delivery time
 
-👉 Displays delivery locations mapped on city graph using OpenStreetMap data.
-Helps visualize spatial distribution of orders.
 
-🚛 3. Vehicle Assignment System
+### 📍 Delivery Node Mapping
+![Node Mapping](./images/Screenshot%20from%202025-01-28%2011-25-44.png)
+👉 Shows delivery locations mapped using OpenStreetMap
+✔ Visualizes city-wide delivery nodes
+✔ Helps spatial analysis
 
-👉 Demonstrates how orders are dynamically assigned to vehicles based on:
 
-Capacity
-Priority
-Weight constraints
-📊 4. Analytics Dashboard
+### 🚛 Vehicle Assignment System
+![Vehicle Assignment](./images/Screenshot%20from%202025-01-28%2011-26-06.png)
+👉 Demonstrates smart allocation of orders to vehicles
+✔ Capacity-based grouping
+✔ Priority handling
 
-👉 Provides real-time performance insights:
 
-Delivery completion rate
-Fleet utilization
-System efficiency metrics
-⏱️ 5. Delivery Time Prediction (ML Output)
+### 📊 Analytics Dashboard
+![Analytics Dashboard](./images/Screenshot%20from%202025-01-28%2011-26-35.png)
+👉 Real-time performance insights
+✔ Delivery completion tracking
+✔ Fleet efficiency monitoring
 
-👉 Shows machine learning predicted ETA based on:
 
-Distance
-Traffic conditions
-Weather inputs
-🗺️ 6. Full System Overview
-
-👉 Complete integrated dashboard combining:
-
-Routing system
-ML predictions
-Analytics
-Fleet monitoring
-📈 Impact
-⬇️ Reduced delivery time significantly
-⬇️ Lower fuel and operational costs
-⬆️ Improved delivery accuracy
-⬆️ Better fleet utilization efficiency
-🔮 Future Improvements
-📡 Real-time GPS tracking system
-🌦️ AI-based traffic & weather prediction integration
-📱 Mobile app for delivery drivers
-☁️ Cloud deployment (AWS / GCP)
-🤖 Deep learning-based ETA prediction model
-👨‍💻 Developer
-
-Suraj Rawat
-Full Stack Developer | AI & ML Enthusiast
+### ⏱️ Delivery Time Prediction
+![Time Prediction](./images/Screenshot%20from%202025-01-28%2011-26-43.png)
+👉 Machine learning-based ETA prediction
+✔ Considers traffic + distance + load
+✔ Accurate delivery estimation
