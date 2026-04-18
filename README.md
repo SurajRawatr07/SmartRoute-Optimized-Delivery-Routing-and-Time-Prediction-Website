@@ -10,6 +10,21 @@
 
 ---
 
+## 📌 Table of Contents
+1. [Overview](#-overview)
+2. [Features](#-features)
+   - [Route Optimization](#-route-optimization)
+   - [Delivery Time Prediction](#-delivery-time-prediction)
+   - [Smart Vehicle Allocation](#-smart-vehicle-allocation)
+   - [Interactive Dashboard](#-interactive-dashboard)
+   - [Scalable Architecture](#-scalable-architecture)
+3. [System Architecture](#-system-architecture)
+4. [Tech Stack](#-tech-stack)
+5. [Installation & Setup](#-installation--setup)
+6. [Screenshots](#-screenshots)
+
+---
+
 ## 📌 Overview
 
 **SmartRoute** is an AI-powered logistics optimization system designed to improve delivery efficiency through:
@@ -26,15 +41,15 @@ It integrates **OpenStreetMap (OSM)** data, **machine learning models**, and gra
 ## ✨ Features
 
 ### 🚀 Route Optimization
-- Uses **TSP (Traveling Salesman Problem)** algorithms
-- Computes shortest and most efficient delivery paths using **NetworkX + OSMnx**
+- Utilizes **TSP (Traveling Salesman Problem)** algorithms.
+- Computes shortest and most efficient delivery paths using **NetworkX + OSMnx**.
 
 ### 🤖 Delivery Time Prediction
 - ML model trained on:
   - Distance
   - Traffic conditions
   - Weather data
-- Uses **RandomForest Regressor**
+- Employs **RandomForest Regressor** for accurate predictions.
 
 ### 🚚 Smart Vehicle Allocation
 - Assigns orders based on:
@@ -43,18 +58,19 @@ It integrates **OpenStreetMap (OSM)** data, **machine learning models**, and gra
   - Load weight
 
 ### 📊 Interactive Dashboard
-- Real-time route visualization
-- Delivery performance analytics
-- Fleet tracking system
+- Real-time route visualization.
+- Delivery performance analytics.
+- Fleet tracking system for enhanced oversight.
 
 ### 🐳 Scalable Architecture
-- Fully containerized using **Docker & Docker Compose**
-- Separate frontend and backend services
+- Fully containerized using **Docker & Docker Compose**.
+- Separate frontend and backend services for modularity.
 
 ---
 
 ## 🏗️ System Architecture
 
+*Details about the system architecture will be provided here.*
 
 ---
 
@@ -91,30 +107,35 @@ It integrates **OpenStreetMap (OSM)** data, **machine learning models**, and gra
 ```bash
 git clone https://github.com/your-username/SmartRoute.git
 cd SmartRoute
+```
 
-Run with Docker
+### 2️⃣ Run with Docker
+```bash
 docker-compose up --build
-🌐 Access Application
-Service	URL
-Backend API	http://localhost:8000
+```
 
-Frontend Dashboard	http://localhost:3000
+### 🌐 Access Application
 
+| Service              | URL                     |
+|---------------------|-------------------------|
+| Backend API         | [http://localhost:8000](http://localhost:8000) |
+| Frontend Dashboard   | [http://localhost:3000](http://localhost:3000) |
+
+---
 
 ### 📸 Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img1.png" width="400"/>
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img2.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img1.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img2.png" width="400"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img3.png" width="400"/>
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img4.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img3.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img4.png" width="400"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img5.png" width="400"/>
-  <img src="https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/images/img6.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img5.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/SurajRawatr07/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction-Website/main/images/img6.png" width="400"/>
 </p>
-
