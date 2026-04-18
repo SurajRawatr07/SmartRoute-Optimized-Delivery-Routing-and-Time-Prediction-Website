@@ -1,51 +1,104 @@
+# 🚚 SmartRoute – Optimized Delivery Routing & Time Prediction System
 
-# SmartRoute-Optimized Delivery Routing & Time Prediction
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?style=for-the-badge">
+  <img src="https://img.shields.io/badge/AI-ML%20Model-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Deployment-Docker-blue?style=for-the-badge">
+</p>
+
+---
+
+## 📌 Overview
+
+**SmartRoute** is an AI-powered logistics optimization system designed to improve delivery efficiency through:
+
+- 🚛 Smart route optimization
+- ⏱️ Delivery time prediction
+- 📦 Dynamic vehicle allocation
+- 📊 Real-time operational dashboard
+
+It integrates **OpenStreetMap (OSM)** data, **machine learning models**, and graph algorithms to optimize fleet performance and reduce delivery time.
+
+---
+
+## ✨ Features
+
+### 🚀 Route Optimization
+- Uses **TSP (Traveling Salesman Problem)** algorithms
+- Computes shortest and most efficient delivery paths using **NetworkX + OSMnx**
+
+### 🤖 Delivery Time Prediction
+- ML model trained on:
+  - Distance
+  - Traffic conditions
+  - Weather data
+- Uses **RandomForest Regressor**
+
+### 🚚 Smart Vehicle Allocation
+- Assigns orders based on:
+  - Vehicle capacity
+  - Priority level
+  - Load weight
+
+### 📊 Interactive Dashboard
+- Real-time route visualization
+- Delivery performance analytics
+- Fleet tracking system
+
+### 🐳 Scalable Architecture
+- Fully containerized using **Docker & Docker Compose**
+- Separate frontend and backend services
+
+---
+
+## 🏗️ System Architecture
 
 
+---
 
-SmartRoute is a logistics optimization system designed to streamline delivery operations by optimizing vehicle routes, predicting delivery times, and providing real-time operational insights. The system leverages OpenStreetMap data, machine learning models, and a dynamic dashboard for efficient fleet management.
+## 🛠️ Tech Stack
 
+### Backend
+- FastAPI
+- Python
+- OSMnx
+- NetworkX
 
-## Features
+### Frontend
+- React.js
+- JavaScript
+- Google Maps API
 
-- **Optimized Route Planning**: Uses shortest path and Traveling Salesman Problem (TSP) algorithms to determine the best delivery routes.
+### Machine Learning
+- Scikit-learn
+- RandomForest
+- Pandas, NumPy
 
-- **Predictive Delivery Time Estimation**: Trained machine learning model predicts delivery times based on distance, traffic, and weather conditions.
+### Database
+- PostgreSQL
 
-- **Dynamic Vehicle Assignment**: Orders are grouped with vehicles based on capacity, priority, and weight.
+### DevOps
+- Docker
+- Docker Compose
 
-- **Interactive Dashboard**: Displays real-time route visualization, delivery metrics, and operational insights.
+---
 
-- **Scalable and Containerized**: Dockerized deployment with FastAPI backend and React frontend.
+## ⚙️ Installation & Setup
 
-
-## Installation & Setup
-
-Steps to Run
-
-- Clone the repository
+### 1️⃣ Clone Repository
 ```bash
-  git clone https://github.com/Vijay2101/SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction.git
-  cd SmartRoute-Optimized-Delivery-Routing-and-Time-Prediction
-```
+git clone https://github.com/your-username/SmartRoute.git
+cd SmartRoute
 
-- Start the services using Docker Compose
-```bash
-  docker-compose up --build
-```
-- Access the application
-  
-Backend API: ``` http://localhost:8000 ```
+Run with Docker
+docker-compose up --build
+🌐 Access Application
+Service	URL
+Backend API	http://localhost:8000
 
-Frontend Dashboard: ``` http://localhost:3000 ```
-    
-## Tech Stack
-
-- **Backend**: FastAPI, Python, OpenStreetMap (OSMnx), NetworkX
-- **Frontend**: React, JavaScript, Google Maps API
-- **Database**: PostgreSQL
-- **Machine Learning**: Scikit-learn, RandomForest, Pandas, NumPy
-- **Deployment**: Docker, Docker Compose
+Frontend Dashboard	http://localhost:3000
 
 
 ## Screenshots
